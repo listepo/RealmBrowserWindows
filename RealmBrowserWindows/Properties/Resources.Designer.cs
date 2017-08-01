@@ -59,5 +59,15 @@ namespace RealmBrowserWindows.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RealmBrowserAppIcon512x512 {
+            get {
+                object obj = ResourceManager.GetObject("RealmBrowserAppIcon512x512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

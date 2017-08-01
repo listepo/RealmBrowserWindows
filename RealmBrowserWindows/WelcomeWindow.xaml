@@ -11,10 +11,11 @@
             <ColumnDefinition Width="145*"/>
             <ColumnDefinition Width="151*"/>
         </Grid.ColumnDefinitions>
-        <Label Content="Welcome to Realm Browser" HorizontalAlignment="Center" Margin="0,60,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="16"/>
-        <Label Content="0.0.0.0" Name="AssemblyVersion" HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="12"/>
-        <Button Grid.ColumnSpan="2" Content="Open Realm file" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,0,0" Padding="5,2,5,2" Click="OpenRealmFile_Click"/>
-        <Button Grid.ColumnSpan="2" Content="Open Realm url" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,150,0,0" Padding="5,2,5,2" IsEnabled="False"/>
-        <Button Grid.ColumnSpan="2" Content="Connect to Object Server" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,200,0,0" Padding="5,2,5,2" IsEnabled="False"/>
+        <Image Grid.ColumnSpan="2" HorizontalAlignment="Center" Height="100" Margin="0,26,0,0" VerticalAlignment="Top" Width="100" Source="{StaticResource RealmBrowserAppIcon}" />
+        <Label Content="Welcome to Realm Browser" HorizontalAlignment="Center" Margin="0,135,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="16"/>
+        <Label Content="0.0.0.0" Name="AssemblyVersion" HorizontalAlignment="Center" Margin="0,160,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="12"/>
+        <Button Grid.ColumnSpan="2" Content="Open Realm file" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="124,185,124,0" Padding="5,2,5,2" Click="OpenRealmFile_Click"/>
+        <Button Grid.ColumnSpan="2" Content="Open Realm url" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="125,215,125,0" Padding="5,2,5,2" IsEnabled="False"/>
+        <Button Grid.ColumnSpan="2" Content="Connect to Object Server" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="100,258,100,0" Padding="5,2,5,2" IsEnabled="False"/>
     </Grid>
 </Window>

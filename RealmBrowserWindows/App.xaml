@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:RealmBrowserWindows"
              StartupUri="WelcomeWindow.xaml">
     <Application.Resources>
-         
+        <BitmapImage x:Key="RealmBrowserAppIcon" UriSource="/Resources/RealmBrowserAppIcon512x512.png" />
     </Application.Resources>
 </Application>
