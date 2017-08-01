@@ -22,6 +22,7 @@ namespace RealmBrowserWindows
             bool? userClickedOK = openFileDialog.ShowDialog();
             if (userClickedOK == true) {
                 var config = new RealmConfiguration(openFileDialog.FileName);
+                // TODO: Required Dynamic = true https://github.com/realm/realm-dotnet/issues/778
                 var realm = Realm.GetInstance(config);
             }
         }
